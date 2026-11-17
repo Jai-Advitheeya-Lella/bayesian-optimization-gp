@@ -1,0 +1,31 @@
+{
+ "n_train": 401,
+ "n_test": 120,
+ "ours": {
+  "lml": 913.0828522898776,
+  "test_rmse": 1.3884263525639269,
+  "coverage95": 0.625,
+  "fit_time_s": 29.84739978700236,
+  "hyperparameters": {
+   "k1.k1.k1.lengthscale": 51.74019230487626,
+   "k1.k1.k1.variance": 19.686926278550704,
+   "k1.k1.k2.k1.lengthscale": 195.71425425027428,
+   "k1.k1.k2.k1.variance": 0.05587562440840941,
+   "k1.k1.k2.k2.lengthscale": 1.675480808906809,
+   "k1.k1.k2.k2.period": 0.9995924371894512,
+   "k1.k1.k2.k2.variance": 1.9103554773577478,
+   "k1.k2.lengthscale": 0.8437552807007903,
+   "k1.k2.alpha": 9.033826113952623,
+   "k1.k2.variance": 0.0008463552058613043,
+   "k2.lengthscale": 0.1243703446799294,
+   "k2.variance": 0.00027110621187528193
+  },
+  "noise_variance": 0.00024623711184137514
+ },
+ "sklearn": {
+  "lml": 912.8733851476145,
+  "test_rmse": 1.2348238032666683,
+  "fit_time_s": 61.70109164399764,
+  "kernel": "3.82**2 * RBF(length_scale=48.2) + 0.335**2 * RBF(length_scale=200) * ExpSineSquared(length_scale=1.68, periodicity=1) + 0.0309**2 * RationalQuadratic(alpha=2.81, length_scale=0.84) + 0.0162**2 * RBF(length_scale=0.12) + WhiteKernel(noise_level=0.000243)"
+ }
+}

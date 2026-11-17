@@ -1,0 +1,10 @@
+wrote kernel_gallery.png
+{
+ "lml": 913.0828522898776,
+ "test_rmse": 1.3884263525639269,
+ "coverage95": 0.625,
+ "fit_time_s": 29.84739978700236,
+ "noise_variance": 0.00024623711184137514
+}
+sklearn 912.8733851476145 1.2348238032666683
+wrote co2_forecast.png
